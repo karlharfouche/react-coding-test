@@ -46,5 +46,7 @@
   position: fixed;
   display: block;
   top: 40%;
+  left: 15%;
+  max-width: 70%;
 }
 

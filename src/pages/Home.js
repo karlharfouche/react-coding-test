@@ -7,7 +7,7 @@ import '../App.css'
 
 const useStyles = makeStyles({
     h1: {
-        fontFamily: '"Palatino Linotype", "Book Antiqua", Palatino, serif',
+        fontFamily: 'Impact, fantasy',
         textShadow: '1px 1px 2px rgba(153, 31, 234, 0.66)',
         color: '#A400B6',
         lineHeight: 1.4,
