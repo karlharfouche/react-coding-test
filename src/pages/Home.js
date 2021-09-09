@@ -1,6 +1,4 @@
 import React from 'react';
-import { ThemeProvider } from '@material-ui/styles';
-import { theme } from '../theme';
 import { Typography } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import '../App.css'
@@ -24,13 +22,11 @@ function Home() {
 
     return (
         <>
-           <ThemeProvider theme={theme}>
                 <div className="divhome">
                     <Typography className={classes.h1} variant="h1">
                         Welcome to SpaceX History and payloads
                     </Typography>
                 </div>
-           </ThemeProvider>
         </>
     )
 }

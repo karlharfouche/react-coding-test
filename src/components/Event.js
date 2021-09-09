@@ -27,6 +27,8 @@ function Event({event}) {
         window.open(`${event.links.article}`)
     }
 
+    let date = new Date(event.event_date_utc);
+
     return (
         <>
         <Card className={classes.root} variant="outlined">
@@ -35,7 +37,7 @@ function Event({event}) {
                     {event.title}
                 </Typography>
                 <Typography className={classes.pos} color="textSecondary">
-                    {event.event_date_utc}
+                    {date.toString()}
                 </Typography>
                 <Typography variant="body2" component="p">
                     {event.details}
